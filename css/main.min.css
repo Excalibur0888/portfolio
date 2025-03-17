@@ -326,13 +326,13 @@ html {
 }
 
 .page__experience {
-  padding: 120px 0;
+  padding: 60px 0;
   background-color: #000
 }
 
 @media(max-width: 1440px) {
   .page__experience {
-    padding: 80px 0
+    padding: 40px 0
   }
 }
 
@@ -347,30 +347,30 @@ html {
 }
 
 .page__skillset {
-  padding: 120px 0;
+  padding: 60px 0;
   background-color: #000
 }
 
 @media(max-width: 1440px) {
   .page__skillset {
-    padding: 80px 0
+    padding: 40px 0
   }
 }
 
 @media(max-width: 767.98px) {
   .page__skillset {
-    padding: 80px 0 64px
+    padding: 40px 0 64px
   }
 }
 
 .page__work {
-  padding: 120px 0 153px;
+  padding: 60px 0 153px;
   background-color: #000
 }
 
 @media(max-width: 1440px) {
   .page__work {
-    padding: 80px 0
+    padding: 40px 0
   }
 }
 
@@ -385,13 +385,13 @@ html {
 }
 
 .page__vk {
-  padding: 120px 0;
+  padding: 60px 0;
   background-color: #000
 }
 
 @media(max-width: 1440px) {
   .page__vk {
-    padding: 80px 0
+    padding: 40px 0
   }
 }
 
@@ -402,13 +402,13 @@ html {
 }
 
 .page__response {
-  padding: 120px 0;
+  padding: 60px 0;
   background-color: #000
 }
 
 @media(max-width: 1440px) {
   .page__response {
-    padding: 80px 0
+    padding: 40px 0
   }
 }
 
@@ -419,13 +419,13 @@ html {
 }
 
 .page__photo {
-  padding: 120px 0;
+  padding: 60px 0;
   background-color: #000
 }
 
 @media(max-width: 1440px) {
   .page__photo {
-    padding: 80px 0
+    padding: 40px 0
   }
 }
 
@@ -436,13 +436,13 @@ html {
 }
 
 .page__contact {
-  padding: 120px 0;
+  padding: 60px 0;
   background-color: #000
 }
 
 @media(max-width: 1440px) {
   .page__contact {
-    padding: 80px 0
+    padding: 40px 0
   }
 }
 
@@ -855,6 +855,7 @@ html {
 
 .swiper {
   max-width: 1380px;
+	padding: 60px 0;
   overflow: hidden;
   margin: 0 auto;
   background-color: #000
@@ -1111,7 +1112,10 @@ html {
 }
 
 .vk__container {
-  padding: 0 110px
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
 }
 
 @media(max-width: 1380px) {
@@ -1147,13 +1151,11 @@ html {
   }
 }
 
-.vk__img {
-  border-radius: 8px
-}
-
 .vk__img img {
   width: 100%;
-  height: 100%
+  height: 100%;
+	justify-self: center;
+  border-radius: 20px;
 }
 
 .response__container {
@@ -1400,7 +1402,7 @@ html {
 
 .footer {
   background-color: #181823;
-  padding: 80px 0
+  padding: 40px 0
 }
 
 @media(max-width: 767.98px) {
